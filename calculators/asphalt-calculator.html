@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asphalt Calculator | CalcHomeLab</title>
+<meta name="description" content="How many tons of asphalt does your driveway or patch need? Get the tonnage right.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/asphalt-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Asphalt Calculator | CalcHomeLab">
+<meta property="og:description" content="How many tons of asphalt does your driveway or patch need? Get the tonnage right.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Construction</span>
+<h1 class="page">Asphalt Calculator</h1>
+<p class="lede">How many tons of asphalt does your driveway or patch need? Get the tonnage right.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="len">Length (feet)</label><input id="len" type="number" value="50" step="1" min="0"></div>
+<div class="field"><label for="wid">Width (feet)</label><input id="wid" type="number" value="12" step="0.5" min="0"></div>
+<div class="field"><label for="thick">Compacted thickness (inches)</label><input id="thick" type="number" value="3" step="0.5" min="0"><div class="hint">Driveways: 2.5–3 in surface over base. Parking areas: 4 in+.</div></div>
+<div class="field"><label for="density">Asphalt density (lb per cu ft)</label><select id="density"><option value="140">140 lb (light mix)</option><option value="145" selected>145 lb (standard hot mix)</option><option value="150">150 lb (dense mix)</option></select></div>
+<div class="field"><label for="price">Price per ton ($) — optional</label><input id="price" type="number" value="0" step="1" min="0"></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A 50 ft × 12 ft driveway at 3 inches compacted thickness is 600 sq ft and 150 cu ft of asphalt — at the standard density of 145 lb/cu ft that is <strong>10.9 tons</strong>. Order about <strong>12 tons</strong> with a waste allowance.</p>
+<h2>The formula</h2>
+<p><strong>Tons = Area (sq ft) × Thickness (ft) × Density (lb/cu ft) ÷ 2,000.</strong> Standard hot-mix asphalt weighs about 145 lb per cubic foot compacted (roughly 2 tons per cubic yard at typical depths). A handy cross-check: 1 ton covers about 55 sq ft at 3 inches deep.</p>
+<h2>How to get an accurate result</h2>
+<p>Asphalt is ordered by the ton, but driveways are measured in feet and inches — this conversion is where most ordering mistakes happen. The single most common error is forgetting that thickness is in inches while everything else is in feet: 3 inches is 0.25 ft, and missing that factor makes an order four times too big or too small. The calculator handles the conversion, but the cross-check is worth remembering: one ton of hot mix covers roughly 55 sq ft at 3 inches, 80 sq ft at 2 inches, or 40 sq ft at 4 inches.</p>
+<p>Density matters more than people expect. Hot-mix asphalt from the plant compacts to about 140–150 lb per cubic foot depending on the aggregate. If your paving contractor quotes tonnage noticeably higher than this calculator at the same thickness, ask which density they are using — or whether the quote quietly includes a thicker section. For resurfacing quotes, also confirm whether the thickness quoted is compacted thickness (what you end up with) or loose thickness before rolling.</p>
+<p>Think about the base, not just the surface. Asphalt is a flexible pavement: a 3-inch layer over a well-compacted 4–6 inch gravel base will outlast a 4-inch layer laid over soft soil. Most premature driveway failures — rutting, alligator cracking, edges breaking away — are base failures, not asphalt failures. If you are budgeting a full replacement, gravel tonnage and excavation often cost as much as the asphalt itself.</p>
+<p>Material-only hot mix in the USA typically costs about $80–150 per ton from the plant, varying with oil prices and region; installed residential driveways commonly run $5–10 per sq ft including base work. Hot mix also has a minimum practical load — plants and pavers may charge a short-load fee under about 5 tons, which is why small patches are often done with cold patch instead despite its shorter life.</p>
+<h2>Step by step</h2>
+<ol><li>Measure the paved area in feet (split odd shapes into rectangles).</li>
+<li>Choose compacted thickness: 2 in resurface, 3 in new driveway typical.</li>
+<li>Use 145 lb/cu ft density unless your plant specifies otherwise.</li>
+<li>Add 10% for edges, spillage and low spots.</li>
+<li>Confirm the plant's minimum load and delivery window before ordering.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How many tons of asphalt do I need for a driveway?</summary><p>A typical 50×12 ft driveway at 3 in thick needs about 11 tons — order 12 with waste. Enter your own dimensions for an exact figure.</p></details>
+<details><summary>How much area does 1 ton of asphalt cover?</summary><p>About 55 sq ft at 3 inches compacted, 80 sq ft at 2 inches, or 40 sq ft at 4 inches, using standard 145 lb/cu ft hot mix.</p></details>
+<details><summary>How thick should a driveway asphalt layer be?</summary><p>2.5–3 inches compacted over a compacted gravel base for cars. Heavier vehicles or poor soil call for 4 inches or more.</p></details>
+<details><summary>What does asphalt cost per ton?</summary><p>Roughly $80–$150 per ton for hot mix material in the USA, before delivery and installation. Installed driveways usually total $5–10 per sq ft.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🧱</span><h3><a href="paver-calculator.html">Paver Calculator</a></h3><p>Pavers, gravel base and sand for your patio or walkway — calculated in seconds.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="retaining-wall-calculator.html">Retaining Wall Calculator</a></h3><p>Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p></div><div class="card"><span class="icon">🌱</span><h3><a href="sod-calculator.html">Sod Calculator</a></h3><p>How many rolls or pallets of sod does your yard need? Measure, enter, done.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Construction · Keyword focus: asphalt calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many tons of asphalt do I need for a driveway?", "acceptedAnswer": {"@type": "Answer", "text": "A typical 50\u00d712 ft driveway at 3 in thick needs about 11 tons \u2014 order 12 with waste. Enter your own dimensions for an exact figure."}}, {"@type": "Question", "name": "How much area does 1 ton of asphalt cover?", "acceptedAnswer": {"@type": "Answer", "text": "About 55 sq ft at 3 inches compacted, 80 sq ft at 2 inches, or 40 sq ft at 4 inches, using standard 145 lb/cu ft hot mix."}}, {"@type": "Question", "name": "How thick should a driveway asphalt layer be?", "acceptedAnswer": {"@type": "Answer", "text": "2.5\u20133 inches compacted over a compacted gravel base for cars. Heavier vehicles or poor soil call for 4 inches or more."}}, {"@type": "Question", "name": "What does asphalt cost per ton?", "acceptedAnswer": {"@type": "Answer", "text": "Roughly $80\u2013$150 per ton for hot mix material in the USA, before delivery and installation. Installed driveways usually total $5\u201310 per sq ft."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var area = v.len*v.wid;
+  var cuft = area*(v.thick/12);
+  var cuyd = cuft/27;
+  var tons = cuft*v.density/2000;
+  return {bigLabel:"Asphalt needed", big: fmt(tons,1)+" tons",
+    rows:[["Surface area", fmt0(area)+" sq ft"],
+          ["Volume", fmt(cuyd)+" cu yd"],
+          ["Order with 10% extra", fmt(tons*1.1,1)+" tons"],
+          ["Estimated material cost", money(tons*v.price)]]};
+}
+//CALC-END
+var IDS=["len","wid","thick","density","price"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

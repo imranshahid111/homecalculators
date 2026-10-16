@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fabric Yardage Calculator | CalcHomeLab</title>
+<meta name="description" content="How many yards of fabric does your project need? No more guessing at the cutting counter.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/fabric-yardage-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Fabric Yardage Calculator | CalcHomeLab">
+<meta property="og:description" content="How many yards of fabric does your project need? No more guessing at the cutting counter.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Home Interior</span>
+<h1 class="page">Fabric Yardage Calculator</h1>
+<p class="lede">How many yards of fabric does your project need? No more guessing at the cutting counter.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="projw">Project width (inches)</label><input id="projw" type="number" value="40" step="0.5" min="0"><div class="hint">Widest measurement of one piece — e.g. cushion top, curtain panel, quilt.</div></div>
+<div class="field"><label for="projl">Project length / cut length (inches)</label><input id="projl" type="number" value="60" step="0.5" min="0"></div>
+<div class="field"><label for="pieces">Number of identical pieces</label><input id="pieces" type="number" value="2" step="1" min="0"></div>
+<div class="field"><label for="fabricw">Fabric width (inches)</label><select id="fabricw"><option value="36">36 in (craft / quilting cotton narrow)</option><option value="44" selected>44–45 in (standard quilting cotton)</option><option value="54">54 in (decorator / home decor)</option><option value="60">60 in (apparel wide)</option></select></div>
+<div class="field"><label for="repeat">Pattern repeat (inches, 0 if plain)</label><input id="repeat" type="number" value="0" step="0.5" min="0"><div class="hint">For patterned fabric, cuts are rounded up to full repeats so motifs align.</div></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> Two cushion covers 40 in wide × 60 in of cut length, from standard 44-inch quilting cotton: each piece fits in one width, total length 120 in = <strong>3.33 yards</strong> — buy <strong>3.75 yards</strong> with a 10% allowance for shrinkage and cutting errors.</p>
+<h2>The formula</h2>
+<p><strong>Yards = (Cut Length × Pieces × Widths Needed) ÷ 36.</strong> Widths Needed = Project Width ÷ Fabric Width, rounded up. If the fabric has a pattern repeat, each cut length is first rounded up to a whole number of repeats so the pattern lines up across pieces.</p>
+<h2>How to get an accurate result</h2>
+<p>Fabric is sold by the yard (36 inches of length) cut from a bolt of fixed width — and the width is what trips people up. The same project can need 2 yards from a 60-inch bolt or 4 yards from a 36-inch bolt, because a wide piece that does not fit across the fabric must be sewn from multiple widths, each consuming full cut length. This calculator works in exactly that order: fit the width first, then multiply the length.</p>
+<p>Standard widths to know: quilting cottons are 44–45 inches, home-decor fabrics 54 inches, many apparel fabrics 58–60 inches, and craft felt and some cottons just 36 inches. The usable width is slightly less than the bolt width — the selvage edges (about 1/2 inch each side) are usually trimmed or excluded from the visible piece, so if your project width is within an inch of the fabric width, treat it as not fitting and plan two widths.</p>
+<p>Pattern repeats and fabric direction add quiet yardage. A large floral or stripe must align across panels and pieces, so each cut is rounded up to complete repeats — enter the repeat (printed on the bolt end or product page) and the calculator adjusts. Directional prints and nap fabrics like velvet must all be cut facing the same way, which forbids flipping pieces to save space; the 10% buying allowance covers normal cases, but for bold patterns on big projects, 15–20% is safer.</p>
+<p>Pre-wash shrinkage is real for natural fibers: cotton can shrink 3–5%, linen more. The allowance in the result covers one wash for most cottons. As for price, USA fabric stores price quilting cotton around $8–15 per yard, decorator fabric $15–40, and apparel fabrics anywhere in between — which is why a half-yard of over-buying is a pleasant spare for test seams and future repairs, while a half-yard short on a discontinued print is a project-ender.</p>
+<h2>Step by step</h2>
+<ol><li>Measure one piece: its widest width and its full cut length (incl. hems/seams).</li>
+<li>Count identical pieces.</li>
+<li>Choose the fabric width of the bolt you will actually buy.</li>
+<li>Add the pattern repeat if the fabric is patterned (bolt label shows it).</li>
+<li>Buy the rounded-up yardage shown — with shrinkage allowance included.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How much fabric do I need for curtains?</summary><p>For two panels covering a 72 in rod at 2× fullness with a 54 in decorator fabric, each panel is one width; yardage is driven by length: an 84 in drop + hems ≈ 96 in per panel, so about 5.5 yards total. Use the curtain calculator first for panel counts.</p></details>
+<details><summary>How many yards is a queen quilt?</summary><p>A queen quilt top (about 90 × 108 in) from 44 in fabric typically needs about 8–9 yards for the top if pieced from one fabric, plus about 8 yards of backing (or 3 yards of 108 in wide backing fabric).</p></details>
+<details><summary>What does fabric width 44/45 mean?</summary><p>The fabric is 44–45 inches wide on the bolt. Yardage is the length cut from that bolt — a "yard" is always 36 inches of length, whatever the width.</p></details>
+<details><summary>Should I buy extra fabric?</summary><p>Yes — 10% for plain fabrics and 15–20% for patterns that must match, nap fabrics, or first-time projects. Dye lots differ; you usually cannot buy a perfect match later.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🪟</span><h3><a href="curtain-size-calculator.html">Curtain Size Calculator</a></h3><p>Panel width, fullness and length — curtains that look tailored, not skimpy.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="drywall-calculator.html">Drywall Calculator</a></h3><p>Sheets, screws, mud and tape for a room — no mid-project hardware store runs.</p></div><div class="card"><span class="icon">🪵</span><h3><a href="board-foot-calculator.html">Board Foot Calculator</a></h3><p>Find out exactly how many board feet of lumber you need — and what it should cost.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Home Interior · Keyword focus: fabric yardage calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much fabric do I need for curtains?", "acceptedAnswer": {"@type": "Answer", "text": "For two panels covering a 72 in rod at 2\u00d7 fullness with a 54 in decorator fabric, each panel is one width; yardage is driven by length: an 84 in drop + hems \u2248 96 in per panel, so about 5.5 yards total. Use the curtain calculator first for panel counts."}}, {"@type": "Question", "name": "How many yards is a queen quilt?", "acceptedAnswer": {"@type": "Answer", "text": "A queen quilt top (about 90 \u00d7 108 in) from 44 in fabric typically needs about 8\u20139 yards for the top if pieced from one fabric, plus about 8 yards of backing (or 3 yards of 108 in wide backing fabric)."}}, {"@type": "Question", "name": "What does fabric width 44/45 mean?", "acceptedAnswer": {"@type": "Answer", "text": "The fabric is 44\u201345 inches wide on the bolt. Yardage is the length cut from that bolt \u2014 a \"yard\" is always 36 inches of length, whatever the width."}}, {"@type": "Question", "name": "Should I buy extra fabric?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 10% for plain fabrics and 15\u201320% for patterns that must match, nap fabrics, or first-time projects. Dye lots differ; you usually cannot buy a perfect match later."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var cutLen = v.projl;
+  if(v.repeat>0){ cutLen = Math.ceil(v.projl/v.repeat)*v.repeat; }
+  var widths = Math.ceil(v.projw/v.fabricw);
+  var totalIn = cutLen*v.pieces*widths;
+  var yards = totalIn/36;
+  var buyYards = Math.ceil(yards*1.1*4)/4;
+  return {bigLabel:"Fabric to buy (with 10% extra)", big: fmt(buyYards,2)+" yards",
+    rows:[["Exact yardage needed", fmt(yards)+" yd ("+fmt(yards*0.9144)+" m)"],
+          ["Cut length per piece", fmt(cutLen,1)+" in"+(v.repeat>0?" (rounded to pattern repeat)":"")],
+          ["Widths of fabric per piece", fmt0(widths)],
+          ["Total fabric length", fmt(totalIn,0)+" in"]]};
+}
+//CALC-END
+var IDS=["projw","projl","pieces","fabricw","repeat"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

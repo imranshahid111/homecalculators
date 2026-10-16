@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Board Foot Calculator | CalcHomeLab</title>
+<meta name="description" content="Find out exactly how many board feet of lumber you need — and what it should cost.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/board-foot-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Board Foot Calculator | CalcHomeLab">
+<meta property="og:description" content="Find out exactly how many board feet of lumber you need — and what it should cost.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Construction</span>
+<h1 class="page">Board Foot Calculator</h1>
+<p class="lede">Find out exactly how many board feet of lumber you need — and what it should cost.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="thick">Thickness (inches)</label><input id="thick" type="number" value="1" step="0.25" min="0"><div class="hint">Nominal lumber: a 2×4 is actually 1.5 in thick.</div></div>
+<div class="field"><label for="width">Width (inches)</label><input id="width" type="number" value="6" step="0.25" min="0"></div>
+<div class="field"><label for="lenft">Length (feet)</label><input id="lenft" type="number" value="8" step="0.5" min="0"></div>
+<div class="field"><label for="qty">Number of pieces</label><input id="qty" type="number" value="10" step="1" min="0"></div>
+<div class="field"><label for="price">Price per board foot ($) — optional</label><input id="price" type="number" value="0" step="0.1" min="0"></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> Ten boards of 1 in × 6 in × 8 ft pine: each board is (1 × 6 × 8) / 12 = <strong>4 board feet</strong>, so the project needs <strong>40 BF</strong> in total. At $3.50/BF that is about $140 of lumber.</p>
+<h2>The formula</h2>
+<p><strong>Board Feet = (Thickness in × Width in × Length ft) ÷ 12.</strong> One board foot is a volume of wood 1 ft × 1 ft × 1 in thick (144 cubic inches). The same formula written with length in inches is (T × W × L) ÷ 144.</p>
+<h2>How to get an accurate result</h2>
+<p>A board foot is not a length and not a square foot — it is a unit of <em>volume</em> used to price lumber, especially hardwoods at specialty yards. Two boards can be the same length and width but very different prices if one is thicker, because the thicker board contains more board feet. That is why a 2-inch-thick oak plank costs roughly twice as much per foot as a 1-inch plank of the same width.</p>
+<p>Measure carefully before you calculate. Lumber is sold by <em>nominal</em> sizes: a "2×4" is really 1.5 × 3.5 inches after drying and planing, and an 8-foot board may be exactly 96 inches or slightly longer. For pricing at a hardwood dealer, use the actual measured thickness and width — dealers charge on the board as it sits in the rack, including any rough, unplaned surface.</p>
+<p>Always add a waste allowance. For straight, simple projects 10% extra is enough; for furniture or anything with grain matching, knots to cut around, or angled cuts, allow 15–20%. Buying all your lumber in one trip also keeps color and grain consistent, because the next batch at the yard may come from a different tree or a different kiln run.</p>
+<p>Prices vary a lot by species and region. As a rough 2026 guide in the USA, common pine and construction lumber runs about $2–4 per board foot at retail, red oak $4–7, walnut $8–15, and exotic species well above that. If the calculator's cost estimate differs a lot from the yard's quote, check whether the yard is pricing by the board foot or by the linear foot — the two are easy to confuse.</p>
+<h2>Step by step</h2>
+<ol><li>Measure the actual thickness and width of one board in inches.</li>
+<li>Measure its length in feet.</li>
+<li>Enter the number of identical pieces you need.</li>
+<li>Multiply out — the result is your total board feet.</li>
+<li>Add 10–20% for waste before you buy.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How do I calculate board feet?</summary><p>Multiply thickness (inches) × width (inches) × length (feet), then divide by 12. For a 2×6×10 board: 2 × 6 × 10 / 12 = 10 board feet.</p></details>
+<details><summary>How many board feet are in a 2×4×8?</summary><p>Using actual dimensions (1.5 × 3.5 in), a 2×4×8 is about 3.5 board feet. Using nominal dimensions (2 × 4) it is 5.33 BF. Hardwood dealers use actual measurements.</p></details>
+<details><summary>What is the difference between board feet and linear feet?</summary><p>Linear feet measure length only. Board feet measure volume, so thickness and width count too. A 10-ft board that is 12 inches wide and 2 inches thick is 10 linear feet but 20 board feet.</p></details>
+<details><summary>How much extra lumber should I buy for waste?</summary><p>Add 10% for simple straight cuts and 15–20% for furniture, hardwood with defects to cut out, or projects with angled cuts.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🚧</span><h3><a href="fence-material-calculator.html">Fence Material Calculator</a></h3><p>Posts, rails, pickets and concrete for a wood fence — a complete material list.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="drywall-calculator.html">Drywall Calculator</a></h3><p>Sheets, screws, mud and tape for a room — no mid-project hardware store runs.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="retaining-wall-calculator.html">Retaining Wall Calculator</a></h3><p>Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Construction · Keyword focus: board foot calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I calculate board feet?", "acceptedAnswer": {"@type": "Answer", "text": "Multiply thickness (inches) \u00d7 width (inches) \u00d7 length (feet), then divide by 12. For a 2\u00d76\u00d710 board: 2 \u00d7 6 \u00d7 10 / 12 = 10 board feet."}}, {"@type": "Question", "name": "How many board feet are in a 2\u00d74\u00d78?", "acceptedAnswer": {"@type": "Answer", "text": "Using actual dimensions (1.5 \u00d7 3.5 in), a 2\u00d74\u00d78 is about 3.5 board feet. Using nominal dimensions (2 \u00d7 4) it is 5.33 BF. Hardwood dealers use actual measurements."}}, {"@type": "Question", "name": "What is the difference between board feet and linear feet?", "acceptedAnswer": {"@type": "Answer", "text": "Linear feet measure length only. Board feet measure volume, so thickness and width count too. A 10-ft board that is 12 inches wide and 2 inches thick is 10 linear feet but 20 board feet."}}, {"@type": "Question", "name": "How much extra lumber should I buy for waste?", "acceptedAnswer": {"@type": "Answer", "text": "Add 10% for simple straight cuts and 15\u201320% for furniture, hardwood with defects to cut out, or projects with angled cuts."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var bfOne = v.thick*v.width*v.lenft/12;
+  var total = bfOne*v.qty;
+  return {bigLabel:"Total board feet", big: fmt(total)+" BF",
+    rows:[["Board feet per piece", fmt(bfOne)+" BF"],
+          ["Total linear feet", fmt0(v.lenft*v.qty)+" ft"],
+          ["Estimated lumber cost", money(total*v.price)]]};
+}
+//CALC-END
+var IDS=["thick","width","lenft","qty","price"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

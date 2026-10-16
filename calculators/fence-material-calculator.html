@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fence Material Calculator | CalcHomeLab</title>
+<meta name="description" content="Posts, rails, pickets and concrete for a wood fence — a complete material list.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/fence-material-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Fence Material Calculator | CalcHomeLab">
+<meta property="og:description" content="Posts, rails, pickets and concrete for a wood fence — a complete material list.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Construction</span>
+<h1 class="page">Fence Material Calculator</h1>
+<p class="lede">Posts, rails, pickets and concrete for a wood fence — a complete material list.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="len">Total fence length (feet)</label><input id="len" type="number" value="100" step="1" min="0"></div>
+<div class="field"><label for="spacing">Post spacing (feet)</label><select id="spacing"><option value="6">6 ft (stronger, windy areas)</option><option value="8" selected>8 ft (standard)</option></select></div>
+<div class="field"><label for="picketw">Picket width (inches)</label><input id="picketw" type="number" value="5.5" step="0.25" min="0"><div class="hint">Standard dog-ear picket: 5.5 in wide.</div></div>
+<div class="field"><label for="gap">Gap between pickets (inches)</label><input id="gap" type="number" value="0.25" step="0.25" min="0"><div class="hint">0 for a tight privacy fence; wood shrinks, so 1/4 in is common.</div></div>
+<div class="field"><label for="rails">Rails per section</label><select id="rails"><option value="2" selected>2 rails (fences up to 6 ft)</option><option value="3">3 rails (tall or heavy fences)</option></select></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A 100 ft privacy fence with 8 ft post spacing has 13 sections and <strong>14 posts</strong>, 26 rails (2 per section), and — with 5.5 in pickets and a 1/4 in gap — about <strong>209 pickets</strong>, plus roughly 28 bags of concrete.</p>
+<h2>The formula</h2>
+<p><strong>Posts = (Length ÷ Spacing) + 1.</strong> Rails = sections × rails per section. Pickets = (Length in inches) ÷ (picket width + gap). This counts one straight run — for multiple sides, calculate each side separately and add them, because every corner and end needs its own post.</p>
+<h2>How to get an accurate result</h2>
+<p>A fence is really a series of sections between posts, and every material count flows from the section count. Posts are the structure: set them a third of their length deep (a 6 ft fence needs an 8 ft post with 2 ft in the ground), in concrete, with the crown of the concrete sloped away from the post so water sheds instead of pooling and rotting the wood.</p>
+<p>Picket math surprises people — a 100 ft fence needs over 200 pickets. Buy about 5% more than the calculator shows, because a few pickets in every bundle are warped, split or ugly, and on a privacy fence the gaps matter: freshly installed pressure-treated pickets shrink as they dry, so a fence built board-tight in spring will show slim gaps by fall. Many builders deliberately leave a 1/4 inch gap for exactly this reason.</p>
+<p>Calculate each side of the yard separately rather than entering one total length. Corners, gates and ends each terminate a run, and each run rounds up its own sections — combining lengths first under-counts posts. Gates are not calculated here: a standard gate needs its own heavier posts, a frame and hardware, so budget it as a separate small project.</p>
+<p>Typical USA material costs for a DIY wood privacy fence run about $12–25 per linear foot all-in (posts, rails, pickets, concrete, screws and hardware), versus $30–60 per foot installed by a contractor. Pressure-treated pine is the budget standard; cedar costs roughly 30–50% more but resists rot and insects better and stays straighter.</p>
+<h2>Step by step</h2>
+<ol><li>Measure each fence run separately, in feet.</li>
+<li>Choose post spacing: 8 ft standard, 6 ft for windy sites or heavy gates.</li>
+<li>Enter picket width and the gap you plan to leave.</li>
+<li>Add up posts, rails, pickets and concrete for all runs.</li>
+<li>Buy 5% extra pickets for warped or split boards.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How many pickets do I need for a 100 ft fence?</summary><p>With standard 5.5 in pickets and a 1/4 in gap, about 209 pickets for 100 ft — plus a few spares for rejects. Tighter gaps or narrower pickets increase the count.</p></details>
+<details><summary>How far apart should fence posts be?</summary><p>8 feet is standard for wood privacy fences. Use 6 feet in windy areas, on slopes, or where the fence will carry a heavy gate.</p></details>
+<details><summary>How much concrete does each fence post need?</summary><p>About one to two 60 lb bags per post for a typical 24–30 in deep hole. Deeper or wider holes in soft soil need more.</p></details>
+<details><summary>How deep should fence posts be set?</summary><p>At least one-third of the post length, and below the frost line in cold climates. A 6 ft fence typically uses 8 ft posts buried 2 ft deep.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🪵</span><h3><a href="board-foot-calculator.html">Board Foot Calculator</a></h3><p>Find out exactly how many board feet of lumber you need — and what it should cost.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="retaining-wall-calculator.html">Retaining Wall Calculator</a></h3><p>Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="drywall-calculator.html">Drywall Calculator</a></h3><p>Sheets, screws, mud and tape for a room — no mid-project hardware store runs.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Construction · Keyword focus: fence material calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many pickets do I need for a 100 ft fence?", "acceptedAnswer": {"@type": "Answer", "text": "With standard 5.5 in pickets and a 1/4 in gap, about 209 pickets for 100 ft \u2014 plus a few spares for rejects. Tighter gaps or narrower pickets increase the count."}}, {"@type": "Question", "name": "How far apart should fence posts be?", "acceptedAnswer": {"@type": "Answer", "text": "8 feet is standard for wood privacy fences. Use 6 feet in windy areas, on slopes, or where the fence will carry a heavy gate."}}, {"@type": "Question", "name": "How much concrete does each fence post need?", "acceptedAnswer": {"@type": "Answer", "text": "About one to two 60 lb bags per post for a typical 24\u201330 in deep hole. Deeper or wider holes in soft soil need more."}}, {"@type": "Question", "name": "How deep should fence posts be set?", "acceptedAnswer": {"@type": "Answer", "text": "At least one-third of the post length, and below the frost line in cold climates. A 6 ft fence typically uses 8 ft posts buried 2 ft deep."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var sections = Math.ceil(v.len/v.spacing);
+  var posts = sections+1;
+  var rails = sections*v.rails;
+  var pickets = Math.ceil(v.len*12/(v.picketw+v.gap));
+  var concrete = posts*2;
+  return {bigLabel:"Pickets needed", big: fmt0(pickets)+" pickets",
+    rows:[["Fence sections", fmt0(sections)],
+          ["Posts (4×4)", fmt0(posts)+" posts"],
+          ["Rails (2×4)", fmt0(rails)+" rails"],
+          ["Concrete bags (60 lb, ~2 per post)", fmt0(concrete)+" bags"]]};
+}
+//CALC-END
+var IDS=["len","spacing","picketw","gap","rails"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>
