@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sod Calculator | CalcHomeLab</title>
+<meta name="description" content="How many rolls or pallets of sod does your yard need? Measure, enter, done.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/sod-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Sod Calculator | CalcHomeLab">
+<meta property="og:description" content="How many rolls or pallets of sod does your yard need? Measure, enter, done.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Lawn & Outdoor</span>
+<h1 class="page">Sod Calculator</h1>
+<p class="lede">How many rolls or pallets of sod does your yard need? Measure, enter, done.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="len">Yard length (feet)</label><input id="len" type="number" value="40" step="1" min="0"></div>
+<div class="field"><label for="wid">Yard width (feet)</label><input id="wid" type="number" value="25" step="1" min="0"></div>
+<div class="field"><label for="pallet">Sod coverage per pallet (sq ft)</label><select id="pallet"><option value="400">400 sq ft (small pallet)</option><option value="450" selected>450 sq ft (standard)</option><option value="500">500 sq ft (large pallet)</option></select></div>
+<div class="field"><label for="waste">Extra for cutting & curves (%)</label><input id="waste" type="number" value="10" step="1" min="0"></div>
+<div class="field"><label for="price">Price per pallet ($) — optional</label><input id="price" type="number" value="0" step="1" min="0"></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A 40 ft × 25 ft backyard is 1,000 sq ft. With 10% extra for cutting you need 1,100 sq ft of sod — that is <strong>110 rolls</strong>, or <strong>3 pallets</strong> at 450 sq ft per pallet (you round up, because pallets are sold whole).</p>
+<h2>The formula</h2>
+<p><strong>Area = Length × Width.</strong> A standard sod roll covers about 10 sq ft (2 ft × 5 ft). A pallet typically covers 400–500 sq ft depending on the farm. Rolls = Area ÷ 10; Pallets = Area ÷ pallet coverage. Always add 5–10% for cuts around curves, trees and edges.</p>
+<h2>How to get an accurate result</h2>
+<p>Sod is sold two ways: by the roll for small patches and by the pallet for whole yards. A roll is usually 2 feet by 5 feet — 10 square feet — while a pallet holds 400 to 500 square feet depending on the sod farm and the grass type. Because farms differ, always confirm the pallet coverage before you order; a 50 sq ft difference per pallet adds up fast on a big yard.</p>
+<p>Measure your yard in sections if it is not a simple rectangle. Break an L-shaped lawn into two rectangles, calculate each, and add them together. For a circular area, measure the diameter and use radius × radius × 3.14. Subtract large areas that will not be sodded — patios, driveways, sheds and planting beds — but do not subtract small obstacles like trees; the extra sod simply gets cut around them, which is exactly what your waste allowance covers.</p>
+<p>Order sod for delivery the same day you plan to lay it, ideally in the morning. Sod is a living product: rolls left stacked on a pallet in summer heat can yellow within 24–48 hours. Prepare the soil first — grade it about 1 inch below paths and driveways, rake it smooth, and lightly water it — so the sod goes straight from pallet to ground. Lay the sod the same day and water deeply.</p>
+<p>Retail pallet prices in the USA typically run about $150–$300 per pallet depending on grass type (fescue and bluegrass at the lower end, zoysia and Bermuda higher in many regions), plus a delivery fee of $50–$150 that is often waived on multi-pallet orders. Getting one extra pallet is cheaper than a second delivery if you come up short.</p>
+<h2>Step by step</h2>
+<ol><li>Measure the length and width of each lawn section in feet.</li>
+<li>Multiply to get square feet; add sections together.</li>
+<li>Choose your farm's pallet coverage (ask if unsure — 450 is standard).</li>
+<li>Add 10% for cutting around edges and curves.</li>
+<li>Order delivery for the morning you will lay it.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How much sod do I need for 1,000 square feet?</summary><p>At least 1,000 sq ft of sod — 100 rolls or about 2.2 pallets at 450 sq ft each. With a 10% cutting allowance, order 1,100 sq ft, which rounds to 3 pallets.</p></details>
+<details><summary>How many rolls of sod are on a pallet?</summary><p>A pallet holds roughly 40–50 rolls (400–500 sq ft total), depending on the farm and roll size. Always confirm coverage per pallet when you order.</p></details>
+<details><summary>How much does a pallet of sod cost?</summary><p>Typically $150–$300 per pallet in the USA depending on grass species and region, plus delivery. Zoysia and specialty grasses cost more than fescue or bluegrass.</p></details>
+<details><summary>Can sod sit on the pallet overnight?</summary><p>Try to avoid it. Lay sod the day it arrives — in hot weather rolls begin to heat up and yellow within a day. If you must wait, unroll a few rolls in shade and keep them moist.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🧱</span><h3><a href="paver-calculator.html">Paver Calculator</a></h3><p>Pavers, gravel base and sand for your patio or walkway — calculated in seconds.</p></div><div class="card"><span class="icon">🐟</span><h3><a href="pond-volume-calculator.html">Pond Volume Calculator</a></h3><p>Gallons in your pond — for the right pump, filter, liner and treatment doses.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="retaining-wall-calculator.html">Retaining Wall Calculator</a></h3><p>Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Lawn & Outdoor · Keyword focus: sod calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much sod do I need for 1,000 square feet?", "acceptedAnswer": {"@type": "Answer", "text": "At least 1,000 sq ft of sod \u2014 100 rolls or about 2.2 pallets at 450 sq ft each. With a 10% cutting allowance, order 1,100 sq ft, which rounds to 3 pallets."}}, {"@type": "Question", "name": "How many rolls of sod are on a pallet?", "acceptedAnswer": {"@type": "Answer", "text": "A pallet holds roughly 40\u201350 rolls (400\u2013500 sq ft total), depending on the farm and roll size. Always confirm coverage per pallet when you order."}}, {"@type": "Question", "name": "How much does a pallet of sod cost?", "acceptedAnswer": {"@type": "Answer", "text": "Typically $150\u2013$300 per pallet in the USA depending on grass species and region, plus delivery. Zoysia and specialty grasses cost more than fescue or bluegrass."}}, {"@type": "Question", "name": "Can sod sit on the pallet overnight?", "acceptedAnswer": {"@type": "Answer", "text": "Try to avoid it. Lay sod the day it arrives \u2014 in hot weather rolls begin to heat up and yellow within a day. If you must wait, unroll a few rolls in shade and keep them moist."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var area = v.len*v.wid;
+  var withWaste = area*(1+v.waste/100);
+  var rolls = Math.ceil(withWaste/10);
+  var pallets = Math.ceil(withWaste/v.pallet);
+  return {bigLabel:"Sod needed (with extra)", big: fmt0(withWaste)+" sq ft",
+    rows:[["Bare area (no extra)", fmt0(area)+" sq ft"],
+          ["Rolls needed (10 sq ft each)", fmt0(rolls)+" rolls"],
+          ["Pallets needed", fmt0(pallets)+" pallets"],
+          ["Estimated cost", money(pallets*v.price)]]};
+}
+//CALC-END
+var IDS=["len","wid","pallet","waste","price"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

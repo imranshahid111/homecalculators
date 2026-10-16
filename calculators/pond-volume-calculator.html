@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pond Volume Calculator | CalcHomeLab</title>
+<meta name="description" content="Gallons in your pond — for the right pump, filter, liner and treatment doses.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/pond-volume-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Pond Volume Calculator | CalcHomeLab">
+<meta property="og:description" content="Gallons in your pond — for the right pump, filter, liner and treatment doses.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Pool & Water</span>
+<h1 class="page">Pond Volume Calculator</h1>
+<p class="lede">Gallons in your pond — for the right pump, filter, liner and treatment doses.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="len">Pond length (feet)</label><input id="len" type="number" value="10" step="0.5" min="0"></div>
+<div class="field"><label for="wid">Pond width (feet)</label><input id="wid" type="number" value="8" step="0.5" min="0"></div>
+<div class="field"><label for="depth">Average depth (feet)</label><input id="depth" type="number" value="2.5" step="0.25" min="0"><div class="hint">Measure a few spots and average them — most ponds slope.</div></div>
+<div class="field"><label for="shape">Pond shape</label><select id="shape"><option value="1" selected>Rectangle / square (factor 1.0)</option><option value="0.785">Oval or round (factor 0.785)</option><option value="0.7">Kidney / freeform (factor 0.7)</option></select></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A rectangular 10 ft × 8 ft pond averaging 2.5 ft deep holds 10 × 8 × 2.5 × 7.48 = <strong>1,496 gallons</strong> — so it wants a pump rated at least ~1,500 GPH and, with overlap, roughly a <strong>17 ft × 15 ft liner</strong>.</p>
+<h2>The formula</h2>
+<p><strong>Gallons = Length × Width × Average Depth × 7.48 × Shape Factor.</strong> Use factor 1.0 for rectangular ponds, 0.785 for oval/round, and about 0.7 for kidney shapes. Liner size = dimension + (2 × depth) + 2 ft for overlap, on both length and width.</p>
+<h2>How to get an accurate result</h2>
+<p>Almost every pond decision runs on gallons: pump size, filter rating, how many fish the pond can support, and the dose of every water treatment and medication. Guessing the volume of an irregular pond is notoriously unreliable — most owners overestimate by a wide margin, then oversize equipment and overdose treatments. Five minutes with a tape measure and this calculator beats any guess.</p>
+<p>Depth is where the error hides. Ponds slope, have planting shelves, and settle. Measure depth in several places — shallow shelf, middle, deepest point — and average them honestly. Rocks, gravel and large plant baskets displace water too; a heavily rocked pond may hold 10–20% less than its bare dimensions suggest. For treatment dosing, knowing you are within 10% is what matters, not false precision.</p>
+<p>For pumps, the rule of thumb is to circulate the full pond volume at least once per hour for a fish pond (twice per hour for heavily stocked koi), remembering that a pump's rated GPH is at zero lift — real flow drops as you push water up to a waterfall or filter. Check the pump's flow chart at your actual head height, and size the filter for at least 1.5× the pond volume if fish are planned.</p>
+<p>Liner sizing follows the formula in the results: length plus twice the depth plus 2 ft of overlap, and the same for width. EPDM rubber liner is the usual choice in the USA at roughly $0.80–1.20 per sq ft. Buying one size up is cheap insurance — excess liner trims off in minutes, but a liner that comes up 6 inches short at the edge is a rebuild.</p>
+<h2>Step by step</h2>
+<ol><li>Measure the longest length and widest width at water level.</li>
+<li>Measure depth in 3–4 spots and average them.</li>
+<li>Pick the shape closest to yours for the correction factor.</li>
+<li>Note gallons for pump/filter sizing and treatment doses.</li>
+<li>Use the suggested liner size when ordering — round up one size.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How many gallons is a 10×8 pond?</summary><p>At an average depth of 2.5 ft, a rectangular 10×8 pond holds about 1,500 gallons. At 3 ft deep it is about 1,800 gallons.</p></details>
+<details><summary>What size pump do I need for my pond?</summary><p>At minimum, a pump that turns over the full volume once per hour at your actual lift height — a 1,500-gallon fish pond wants roughly a 1,500+ GPH pump after head loss.</p></details>
+<details><summary>How do I measure a pond liner size?</summary><p>Liner length = pond length + (2 × max depth) + 2 ft; same for width. Use maximum depth here, not average, so the liner reaches the bottom with overlap to spare.</p></details>
+<details><summary>How many fish can my pond hold?</summary><p>A common guide is 1 inch of fish per 10 gallons for goldfish-type stocking with good filtration — a 1,500-gallon pond suits about 150 inches of fish. Koi need far more room: at least 250 gallons per adult koi.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🏊</span><h3><a href="pool-salt-calculator.html">Pool Salt Calculator</a></h3><p>How many pounds — and bags — of salt your saltwater pool actually needs.</p></div><div class="card"><span class="icon">🌱</span><h3><a href="sod-calculator.html">Sod Calculator</a></h3><p>How many rolls or pallets of sod does your yard need? Measure, enter, done.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="retaining-wall-calculator.html">Retaining Wall Calculator</a></h3><p>Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Pool & Water · Keyword focus: pond volume calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many gallons is a 10\u00d78 pond?", "acceptedAnswer": {"@type": "Answer", "text": "At an average depth of 2.5 ft, a rectangular 10\u00d78 pond holds about 1,500 gallons. At 3 ft deep it is about 1,800 gallons."}}, {"@type": "Question", "name": "What size pump do I need for my pond?", "acceptedAnswer": {"@type": "Answer", "text": "At minimum, a pump that turns over the full volume once per hour at your actual lift height \u2014 a 1,500-gallon fish pond wants roughly a 1,500+ GPH pump after head loss."}}, {"@type": "Question", "name": "How do I measure a pond liner size?", "acceptedAnswer": {"@type": "Answer", "text": "Liner length = pond length + (2 \u00d7 max depth) + 2 ft; same for width. Use maximum depth here, not average, so the liner reaches the bottom with overlap to spare."}}, {"@type": "Question", "name": "How many fish can my pond hold?", "acceptedAnswer": {"@type": "Answer", "text": "A common guide is 1 inch of fish per 10 gallons for goldfish-type stocking with good filtration \u2014 a 1,500-gallon pond suits about 150 inches of fish. Koi need far more room: at least 250 gallons per adult koi."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var cuft = v.len*v.wid*v.depth*v.shape;
+  var gal = cuft*7.48052;
+  var linerL = v.len + 2*v.depth + 2;
+  var linerW = v.wid + 2*v.depth + 2;
+  return {bigLabel:"Pond volume", big: fmt0(gal)+" gallons",
+    rows:[["Liters", fmt0(gal*3.78541)+" L"],
+          ["Minimum pump size (1× turnover/hr)", fmt0(gal)+" GPH"],
+          ["Suggested liner size", fmt0(linerL)+" ft × "+fmt0(linerW)+" ft (incl. 1 ft overlap each side)"]]};
+}
+//CALC-END
+var IDS=["len","wid","depth","shape"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

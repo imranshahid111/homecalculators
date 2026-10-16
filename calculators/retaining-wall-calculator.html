@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retaining Wall Calculator | CalcHomeLab</title>
+<meta name="description" content="Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/retaining-wall-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Retaining Wall Calculator | CalcHomeLab">
+<meta property="og:description" content="Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Construction</span>
+<h1 class="page">Retaining Wall Calculator</h1>
+<p class="lede">Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="len">Wall length (feet)</label><input id="len" type="number" value="20" step="0.5" min="0"></div>
+<div class="field"><label for="height">Wall height above ground (feet)</label><input id="height" type="number" value="3" step="0.5" min="0"><div class="hint">One block course is buried for stability — the calculator adds it.</div></div>
+<div class="field"><label for="blen">Block length (inches)</label><input id="blen" type="number" value="16" step="0.5" min="0"><div class="hint">Common segmental wall block face: 16–18 in long, 6 in high.</div></div>
+<div class="field"><label for="bheight">Block height (inches)</label><input id="bheight" type="number" value="6" step="0.5" min="0"></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A 20 ft long, 3 ft high wall built with 16×6 in blocks needs 15 blocks per row and 7 rows (6 above ground + 1 buried) = 105 blocks, or <strong>116 with 10% extra</strong>, plus 15 cap blocks and about 2.2 cu yd of drainage gravel.</p>
+<h2>The formula</h2>
+<p><strong>Blocks per Row = Wall Length (in) ÷ Block Length (in).</strong> Rows = (Wall Height ÷ Block Height) + 1 buried course. Segmental walls always bury at least one full course and sit on a compacted gravel leveling pad — skipping either is the main cause of leaning walls.</p>
+<h2>How to get an accurate result</h2>
+<p>Segmental retaining wall blocks are designed to stack without mortar, held by gravity, a slight backward setback in each course, and the gravel packed behind them. The system works beautifully up to about 3–4 feet — beyond that, soil pressure grows fast and most manufacturers and building codes call for geogrid reinforcement layers and sometimes an engineered design or permit. Keep DIY walls at or under 4 feet of exposed height unless you have checked your local rules.</p>
+<p>The buried course is not optional decoration. Burying the first course (plus a compacted gravel pad 4–6 inches deep under it) locks the wall base against the sliding force of the soil. On a slope, the buried depth increases. This calculator adds the buried row automatically, which is why its block count is higher than a simple face-area division — that difference is exactly what first-time builders forget at the store.</p>
+<p>Drainage decides whether the wall lasts 3 years or 30. Water trapped behind a wall adds enormous pressure after rain. Use a perforated drain pipe at the base behind the wall, backfill the 12 inches directly behind the blocks with clean drainage gravel (which this calculator estimates), and separate the gravel from the soil with landscape fabric. Cap blocks finish the top and are usually glued with concrete adhesive.</p>
+<p>Costs: segmental blocks run about $3–7 each at home centers in the USA, caps $3–5 each, so the example 20 ft wall lands around $600–900 in blocks alone, or roughly $25–40 per sq ft of wall face with gravel, fabric and pipe included. Professional installation typically doubles to triples the material cost.</p>
+<h2>Step by step</h2>
+<ol><li>Measure the wall length and the above-ground height you want.</li>
+<li>Enter your block's face length and height from the product label.</li>
+<li>Note total blocks (buried row included), caps and gravel.</li>
+<li>Plan a 4–6 in compacted gravel pad and a drain pipe at the base.</li>
+<li>Keep exposed height at or under 4 ft, or check permit/geogrid rules.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How many blocks do I need for a retaining wall?</summary><p>Divide wall length by block length for blocks per row, and wall height by block height for rows — then add one buried row and 10% extra. A 20×3 ft wall with 16×6 blocks needs about 116 blocks.</p></details>
+<details><summary>How deep should the first row of a retaining wall be buried?</summary><p>At least one full block course, on top of a 4–6 in compacted gravel pad. Taller walls and sloped ground need more embedment.</p></details>
+<details><summary>Do I need drainage behind a retaining wall?</summary><p>Yes. A perforated pipe at the base plus 12 in of clean gravel backfill behind the blocks prevents water pressure, the top cause of wall failure.</p></details>
+<details><summary>How tall can I build a retaining wall without a permit?</summary><p>Many US jurisdictions allow up to 3–4 ft (including the buried course) without a permit or engineering, but rules vary — always check your local code.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🧱</span><h3><a href="paver-calculator.html">Paver Calculator</a></h3><p>Pavers, gravel base and sand for your patio or walkway — calculated in seconds.</p></div><div class="card"><span class="icon">🚧</span><h3><a href="fence-material-calculator.html">Fence Material Calculator</a></h3><p>Posts, rails, pickets and concrete for a wood fence — a complete material list.</p></div><div class="card"><span class="icon">🌱</span><h3><a href="sod-calculator.html">Sod Calculator</a></h3><p>How many rolls or pallets of sod does your yard need? Measure, enter, done.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Construction · Keyword focus: retaining wall calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many blocks do I need for a retaining wall?", "acceptedAnswer": {"@type": "Answer", "text": "Divide wall length by block length for blocks per row, and wall height by block height for rows \u2014 then add one buried row and 10% extra. A 20\u00d73 ft wall with 16\u00d76 blocks needs about 116 blocks."}}, {"@type": "Question", "name": "How deep should the first row of a retaining wall be buried?", "acceptedAnswer": {"@type": "Answer", "text": "At least one full block course, on top of a 4\u20136 in compacted gravel pad. Taller walls and sloped ground need more embedment."}}, {"@type": "Question", "name": "Do I need drainage behind a retaining wall?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A perforated pipe at the base plus 12 in of clean gravel backfill behind the blocks prevents water pressure, the top cause of wall failure."}}, {"@type": "Question", "name": "How tall can I build a retaining wall without a permit?", "acceptedAnswer": {"@type": "Answer", "text": "Many US jurisdictions allow up to 3\u20134 ft (including the buried course) without a permit or engineering, but rules vary \u2014 always check your local code."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var perRow = Math.ceil(v.len*12/v.blen);
+  var rowsAbove = Math.ceil(v.height*12/v.bheight);
+  var rows = rowsAbove+1;
+  var blocks = perRow*rows;
+  var withWaste = Math.ceil(blocks*1.1);
+  var gravelYd = v.len*v.height*1/27;
+  return {bigLabel:"Wall blocks to buy (with 10% extra)", big: fmt0(withWaste)+" blocks",
+    rows:[["Blocks per row", fmt0(perRow)],
+          ["Rows (incl. 1 buried)", fmt0(rows)+" rows ("+fmt0(rowsAbove)+" above ground)"],
+          ["Blocks (exact)", fmt0(blocks)],
+          ["Cap blocks", fmt0(perRow)+" caps"],
+          ["Drainage gravel behind wall", fmt(gravelYd)+" cu yd"]]};
+}
+//CALC-END
+var IDS=["len","height","blen","bheight"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>

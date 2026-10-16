@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pool Salt Calculator | CalcHomeLab</title>
+<meta name="description" content="How many pounds — and bags — of salt your saltwater pool actually needs.">
+<link rel="canonical" href="https://calculators.xoftsol.com/calculators/pool-salt-calculator.html">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:title" content="Pool Salt Calculator | CalcHomeLab">
+<meta property="og:description" content="How many pounds — and bags — of salt your saltwater pool actually needs.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="site"><div class="wrap nav">
+<a class="logo" href="../index.html">{BRAND}<span>.</span></a>
+<nav class="links"><a href="../index.html">Calculators</a><a href="../blog/index.html">Guides</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="badge">Pool & Water</span>
+<h1 class="page">Pool Salt Calculator</h1>
+<p class="lede">How many pounds — and bags — of salt your saltwater pool actually needs.</p>
+<div class="toolbox">
+<h2>Calculate</h2>
+<div class="row"><div class="field"><label for="gallons">Pool volume (gallons)</label><input id="gallons" type="number" value="15000" step="500" min="0"><div class="hint">Rectangular pool: length × width × avg depth × 7.48 = gallons.</div></div>
+<div class="field"><label for="current">Current salt level (ppm)</label><input id="current" type="number" value="2000" step="100" min="0"><div class="hint">From a test strip, liquid kit, or your chlorinator's display.</div></div>
+<div class="field"><label for="target">Target salt level (ppm)</label><input id="target" type="number" value="3200" step="100" min="0"><div class="hint">Most salt chlorinators want 2,700–3,400 ppm — check your manual.</div></div></div>
+<div class="result" id="result" aria-live="polite"></div>
+<p style="margin-top:14px"><button class="btn-ghost" onclick="window.print()">🖨️ Print / Save result</button></p>
+</div>
+<h2>A worked example</h2>
+<p><strong>Example:</strong> A 15,000-gallon pool testing at 2,000 ppm with a 3,200 ppm target is short 1,200 ppm. That needs 15,000 × 1,200 × 8.34 ÷ 1,000,000 = <strong>150 lbs of salt — four 40 lb bags</strong> (buy the 4th bag, use what you need, keep the rest for top-ups).</p>
+<h2>The formula</h2>
+<p><strong>Salt (lbs) = Gallons × (Target ppm − Current ppm) × 8.34 ÷ 1,000,000.</strong> The 8.34 is the weight in pounds of one gallon of water; ppm is parts per million by weight, so the formula converts a ppm shortfall into pounds of salt for your pool's exact volume.</p>
+<h2>How to get an accurate result</h2>
+<p>Saltwater pools are not salt-free and they are not maintenance-free — the salt cell converts dissolved salt into chlorine, and the salt itself is barely consumed. Levels drop mainly when water leaves the pool: splash-out, backwashing, leaks and draining for winter all carry salt away, and rain and refill water dilute what remains. That is why most pools need a few bags each spring and occasional small top-ups, not a full recharge.</p>
+<p>Test before you add. Chlorinator displays are convenient but drift as the cell ages or scales up, and they can read 300–500 ppm low. A liquid salt test kit or fresh test strips give a more honest number. Also check your manual before choosing a target: different chlorinators specify different ranges (commonly 2,700–3,400 ppm), and running far above the range can trigger high-salt shutdowns and is hard on heaters and metal fittings.</p>
+<p>Technique matters more than speed. Brush any undissolved piles so they do not sit on the plaster, add salt in the shallow end with the pump running and the salt cell temporarily off, and let it circulate a full 24 hours before retesting. Adding only about 80% of the calculated amount, dissolving, retesting and topping up avoids the classic overshoot — because the only cure for too much salt is draining and refilling.</p>
+<p>Pool salt is just high-purity sodium chloride without anti-caking additives — a 40 lb bag typically costs $7–12 in the USA. Do not substitute rock salt, table salt (iodized, and may contain anti-caking agents that cloud water), or water-softener pellets with additives. Store spare bags in a dry place; salt absorbs moisture and turns into one solid brick otherwise.</p>
+<h2>Step by step</h2>
+<ol><li>Find your pool volume in gallons (or compute L × W × avg depth × 7.48).</li>
+<li>Test the current salt level with a kit or strip, not just the cell display.</li>
+<li>Enter your chlorinator's target ppm (usually ~3,200).</li>
+<li>Add 80% of the calculated salt, circulate 24 hours, retest.</li>
+<li>Top up with the remainder if still below target.</li></ol>
+<h2>Frequently asked questions</h2>
+<details><summary>How much salt does a 20,000 gallon pool need?</summary><p>From zero salt at a 3,200 ppm target: about 534 lbs, or 14 bags of 40 lb. From a typical spring level of 2,400 ppm it needs only about 134 lbs — roughly 3–4 bags.</p></details>
+<details><summary>What happens if I put too much salt in my pool?</summary><p>The water can taste salty, the chlorinator may shut down on a high-salt fault, and corrosion risk rises. There is no chemical neutralizer — partially drain and refill with fresh water to dilute.</p></details>
+<details><summary>How long after adding salt can I swim?</summary><p>Wait until it has fully dissolved and circulated — typically 24 hours — and keep the salt cell off during that period so it does not read the temporary spike.</p></details>
+<details><summary>Why does my pool keep losing salt?</summary><p>Salt only leaves with water: splash-out, backwashing, leaks and rain overflow. If you lose salt much faster than water, suspect a leak.</p></details>
+<div class="note"><strong>Estimate disclaimer:</strong> Results are planning estimates based on standard material sizes and densities. Waste, site conditions and product variations change real quantities — confirm with your supplier before ordering, and follow local building codes.</div>
+<h2>Related calculators</h2>
+<div class="grid"><div class="card"><span class="icon">🐟</span><h3><a href="pond-volume-calculator.html">Pond Volume Calculator</a></h3><p>Gallons in your pond — for the right pump, filter, liner and treatment doses.</p></div><div class="card"><span class="icon">🌱</span><h3><a href="sod-calculator.html">Sod Calculator</a></h3><p>How many rolls or pallets of sod does your yard need? Measure, enter, done.</p></div><div class="card"><span class="icon">🧱</span><h3><a href="paver-calculator.html">Paver Calculator</a></h3><p>Pavers, gravel base and sand for your patio or walkway — calculated in seconds.</p></div></div>
+<p class="small">Last updated: 2026-10-17 · Category: Pool & Water · Keyword focus: pool salt calculator</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><strong>CalcHomeLab</strong> — free home &amp; construction calculators. Estimates only: always confirm quantities with your supplier or contractor before ordering.</p>
+<p><a href="../calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="../calculators/sod-calculator.html">Sod Calculator</a><a href="../calculators/paver-calculator.html">Paver Calculator</a><a href="../calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="../calculators/drywall-calculator.html">Drywall Calculator</a><a href="../calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="../calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="../calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="../calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="../calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="../calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="../calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
+<p><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a><a href="../contact.html">Contact</a></p>
+<p class="small">© 2026 CalcHomeLab. All calculators run in your browser — no data is uploaded or stored.</p>
+</div></footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much salt does a 20,000 gallon pool need?", "acceptedAnswer": {"@type": "Answer", "text": "From zero salt at a 3,200 ppm target: about 534 lbs, or 14 bags of 40 lb. From a typical spring level of 2,400 ppm it needs only about 134 lbs \u2014 roughly 3\u20134 bags."}}, {"@type": "Question", "name": "What happens if I put too much salt in my pool?", "acceptedAnswer": {"@type": "Answer", "text": "The water can taste salty, the chlorinator may shut down on a high-salt fault, and corrosion risk rises. There is no chemical neutralizer \u2014 partially drain and refill with fresh water to dilute."}}, {"@type": "Question", "name": "How long after adding salt can I swim?", "acceptedAnswer": {"@type": "Answer", "text": "Wait until it has fully dissolved and circulated \u2014 typically 24 hours \u2014 and keep the salt cell off during that period so it does not read the temporary spike."}}, {"@type": "Question", "name": "Why does my pool keep losing salt?", "acceptedAnswer": {"@type": "Answer", "text": "Salt only leaves with water: splash-out, backwashing, leaks and rain overflow. If you lose salt much faster than water, suspect a leak."}}]}</script>
+<script>
+
+function fmt(x,d){ if(!isFinite(x)) return "—"; return x.toLocaleString("en-US",{minimumFractionDigits:(d===undefined?2:d),maximumFractionDigits:(d===undefined?2:d)}); }
+function fmt0(x){ return fmt(x,0); }
+function money(x){ return x>0 ? "$"+fmt(x,2) : "—"; }
+
+//CALC-START
+function calc(v){
+  var delta = v.target - v.current;
+  if(delta<=0){ return {bigLabel:"Salt to add", big:"0 lbs", rows:[["Status","Your salt level is already at or above target. No salt needed — if it is far above target, the only fix is partially draining and refilling with fresh water."]]}; }
+  var lbs = v.gallons*delta*8.34/1000000;
+  var bags = Math.ceil(lbs/40);
+  return {bigLabel:"Salt to add", big: fmt0(lbs)+" lbs",
+    rows:[["Salt shortfall", fmt0(delta)+" ppm"],
+          ["40 lb bags needed", fmt0(bags)+" bags"],
+          ["Tip","Add about 80% first, let it dissolve 24 h with the pump running, retest, then top up."]]};
+}
+//CALC-END
+var IDS=["gallons","current","target"];
+function readVals(){ var v={}; IDS.forEach(function(id){ var el=document.getElementById(id); v[id]=parseFloat(el.value)||0; }); return v; }
+function render(){ var r=calc(readVals()); var h='<div class="biglabel">'+r.bigLabel+'</div><div class="big">'+r.big+'</div><div class="stat-row">';
+ r.rows.forEach(function(row){ h+='<div class="stat"><div class="v">'+row[1]+'</div><div class="k">'+row[0]+'</div></div>'; });
+ document.getElementById('result').innerHTML=h+'</div>'; }
+IDS.forEach(function(id){ document.getElementById(id).addEventListener('input',render); document.getElementById(id).addEventListener('change',render); });
+render();
+</script>
+</body></html>
