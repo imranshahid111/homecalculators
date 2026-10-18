@@ -9,8 +9,13 @@
 <meta property="og:title" content="About XoftCal | XoftCal">
 <meta property="og:description" content="About XoftCal — free home and construction calculators built on published formulas.">
 <meta property="og:type" content="website">
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var _xv=localStorage.getItem('xc-consent')==='granted'?'granted':'denied';
+gtag('consent','default',{'ad_storage':_xv,'ad_user_data':_xv,'ad_personalization':_xv,'analytics_storage':_xv});
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBL6QDL8QR"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LBL6QDL8QR');</script>
+<script>gtag('js',new Date());gtag('config','G-LBL6QDL8QR');</script>
 </head>
 <body>
 <header class="site"><div class="wrap nav">
@@ -29,5 +34,6 @@
 <p><a href="calculators/board-foot-calculator.html">Board Foot Calculator</a><a href="calculators/sod-calculator.html">Sod Calculator</a><a href="calculators/paver-calculator.html">Paver Calculator</a><a href="calculators/fence-material-calculator.html">Fence Material Calculator</a><a href="calculators/drywall-calculator.html">Drywall Calculator</a><a href="calculators/asphalt-calculator.html">Asphalt Calculator</a></p><p><a href="calculators/retaining-wall-calculator.html">Retaining Wall Calculator</a><a href="calculators/roof-pitch-calculator.html">Roof Pitch Calculator</a><a href="calculators/pool-salt-calculator.html">Pool Salt Calculator</a><a href="calculators/pond-volume-calculator.html">Pond Volume Calculator</a><a href="calculators/curtain-size-calculator.html">Curtain Size Calculator</a><a href="calculators/fabric-yardage-calculator.html">Fabric Yardage Calculator</a></p>
 <p><a href="about.html">About</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="contact.html">Contact</a></p>
 <p class="small">© 2026 XoftCal. All calculators run in your browser — no data is uploaded or stored.</p>
-</div></footer>
+</div></footer><div id="xc-consent" role="dialog" aria-label="Cookie consent"><p>We use cookies for analytics and ads. Accept for the full experience — the calculators work either way.</p><div class="xc-btns"><button type="button" onclick="xcConsent('granted')">Accept</button><button type="button" class="ghost" onclick="xcConsent('denied')">Decline</button></div></div>
+<script>function xcConsent(v){localStorage.setItem('xc-consent',v);if(typeof gtag==='function'){gtag('consent','update',{'ad_storage':v,'ad_user_data':v,'ad_personalization':v,'analytics_storage':v});}var b=document.getElementById('xc-consent');if(b)b.style.display='none';}if(localStorage.getItem('xc-consent')){var b2=document.getElementById('xc-consent');if(b2)b2.style.display='none';}</script>
 </body></html>

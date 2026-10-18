@@ -63,4 +63,9 @@ footer.site a{color:var(--muted);font-weight:600;margin-right:15px}
 h1.page{font-family:Georgia,"Times New Roman",serif;font-size:1.95rem;margin:0 0 8px;letter-spacing:-.01em}
 h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.01em}
 .lede{font-size:1.06rem;color:var(--muted);max-width:720px}
+#xc-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:60;background:var(--ink);color:#f5efe4;padding:14px 18px;border-radius:10px;border-top:4px solid var(--accent);display:flex;gap:16px;align-items:center;flex-wrap:wrap;box-shadow:0 8px 30px rgba(33,29,25,.28);max-width:860px;margin:0 auto}
+#xc-consent p{margin:0;font-size:.92rem;flex:1;min-width:220px}
+#xc-consent .xc-btns{display:flex;gap:8px}
+#xc-consent button{background:var(--accent);color:#fff;border:0;padding:9px 18px;border-radius:6px;font-weight:700;cursor:pointer;font:inherit}
+#xc-consent button.ghost{background:transparent;border:1px solid #f5efe4;color:#f5efe4}
 @media(max-width:640px){.hero{padding:34px 22px}.hero h1{font-size:1.65rem}h1.page{font-size:1.55rem}.result .big{font-size:1.55rem}}
