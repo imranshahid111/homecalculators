@@ -1,0 +1,27 @@
+# XoftCal
+> Free home and construction calculators with formulas and worked examples: https://calculators.xoftsol.com/
+
+## Calculators
+- [Board Foot Calculator](https://calculators.xoftsol.com/calculators/board-foot-calculator.html): Find out exactly how many board feet of lumber you need — and what it should cost.
+- [Sod Calculator](https://calculators.xoftsol.com/calculators/sod-calculator.html): How many rolls or pallets of sod does your yard need? Measure, enter, done.
+- [Paver Calculator](https://calculators.xoftsol.com/calculators/paver-calculator.html): Pavers, gravel base and sand for your patio or walkway — calculated in seconds.
+- [Fence Material Calculator](https://calculators.xoftsol.com/calculators/fence-material-calculator.html): Posts, rails, pickets and concrete for a wood fence — a complete material list.
+- [Drywall Calculator](https://calculators.xoftsol.com/calculators/drywall-calculator.html): Sheets, screws, mud and tape for a room — no mid-project hardware store runs.
+- [Asphalt Calculator](https://calculators.xoftsol.com/calculators/asphalt-calculator.html): How many tons of asphalt does your driveway or patch need? Get the tonnage right.
+- [Retaining Wall Calculator](https://calculators.xoftsol.com/calculators/retaining-wall-calculator.html): Blocks, caps and gravel backfill for a segmental retaining wall, calculated properly.
+- [Roof Pitch Calculator](https://calculators.xoftsol.com/calculators/roof-pitch-calculator.html): Rise over run, angle in degrees, slope percent and rafter length — all from two numbers.
+- [Pool Salt Calculator](https://calculators.xoftsol.com/calculators/pool-salt-calculator.html): How many pounds — and bags — of salt your saltwater pool actually needs.
+- [Pond Volume Calculator](https://calculators.xoftsol.com/calculators/pond-volume-calculator.html): Gallons in your pond — for the right pump, filter, liner and treatment doses.
+- [Curtain Size Calculator](https://calculators.xoftsol.com/calculators/curtain-size-calculator.html): Panel width, fullness and length — curtains that look tailored, not skimpy.
+- [Fabric Yardage Calculator](https://calculators.xoftsol.com/calculators/fabric-yardage-calculator.html): How many yards of fabric does your project need? No more guessing at the cutting counter.
+
+## Guides
+- [Project Guides](https://calculators.xoftsol.com/blog/index.html): daily in-depth guides, each linked to its calculator.
+- [Board Feet vs Linear Feet vs Square Feet | XoftCal](https://calculators.xoftsol.com/blog/board-feet-vs-linear-feet-vs-square-feet.html)
+- [Board Foot Prices 2026: Oak, Pine & Walnut Costs | XoftCal](https://calculators.xoftsol.com/blog/board-foot-price-oak-pine-walnut.html)
+- [How to Calculate Board Feet — Simple Formula | XoftCal](https://calculators.xoftsol.com/blog/how-to-calculate-board-feet.html)
+- [Nominal vs Actual Lumber Sizes: Why a 2×4 Isn't 2×4 | XoftCal](https://calculators.xoftsol.com/blog/nominal-vs-actual-lumber-sizes.html)
+
+## Site
+- [Sitemap](https://calculators.xoftsol.com/sitemap.xml)
+- Contact: contact@xoftsol.com
