@@ -68,4 +68,35 @@ h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.01em}
 #xc-consent .xc-btns{display:flex;gap:8px}
 #xc-consent button{background:var(--accent);color:#fff;border:0;padding:9px 18px;border-radius:6px;font-weight:700;cursor:pointer;font:inherit}
 #xc-consent button.ghost{background:transparent;border:1px solid #f5efe4;color:#f5efe4}
-@media(max-width:640px){.hero{padding:34px 22px}.hero h1{font-size:1.65rem}h1.page{font-size:1.55rem}.result .big{font-size:1.55rem}}
+img{max-width:100%;height:auto}
+html{-webkit-text-size-adjust:100%}
+/* --- Mobile responsiveness (added 2026-10-20) --- */
+@media(max-width:720px){
+  .wrap{padding:0 14px}
+  .nav{height:auto;flex-wrap:wrap;padding:10px 0;row-gap:6px}
+  .logo{font-size:1.1rem}
+  .logo .mark{width:27px;height:27px;font-size:.95rem}
+  nav.links{gap:2px}
+  nav.links a{padding:6px 8px;font-size:.88rem}
+  main{padding:24px 0 44px}
+  .hero{padding:34px 22px}
+  .hero h1{font-size:1.65rem}
+  .hero p{font-size:.98rem}
+  h1.page{font-size:1.55rem}
+  h2{font-size:1.32rem}
+  .toolbox{padding:19px 16px}
+  .result{padding:15px 16px}
+  .result .big{font-size:1.55rem}
+  .stat{flex-basis:128px}
+  table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  th,td{padding:7px 9px;font-size:.86rem}
+  .filterbar input[type=search]{flex-basis:150px}
+  #xc-consent{left:10px;right:10px;bottom:10px;padding:12px 14px;gap:10px}
+  #xc-consent p{min-width:0;font-size:.88rem}
+}
+@media(max-width:480px){
+  .toolbox button,.toolbox .btn{width:100%;text-align:center}
+  .hero .cta{display:block;text-align:center}
+  #xc-consent{flex-direction:column;align-items:stretch}
+  #xc-consent .xc-btns button{flex:1}
+}
